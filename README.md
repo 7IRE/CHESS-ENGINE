@@ -11,9 +11,9 @@ A powerful and lightweight chess engine implemented in C, supporting full game l
 - [x] **En Passant**: Correct handling of special pawn captures.
 - [x] **Castling**: Supports both kingside and queenside castling with all legality checks.
 - [x] **Promotion**: Pawn promotion to queen, rook, bishop, or knight.
-- [x] **Check Detection**: Identifies when a king is in check and restricts illegal moves.
-- [x] **Checkmate Detection**: Identifies when a king is checkmated and ends the game.
-
+- [x] **Check Detection**: Identifies when  king is in check and restricts illegal moves.
+- [x] **Checkmate Detection**: Identifies when  king is checkmated and ends the game.
+- [x] **50 Move Rule Detection**: Identifies when 50 move have passed without any captures or pawn moves and ends the game.
 ---
 ### Usage
 
