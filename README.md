@@ -17,7 +17,7 @@ A powerful and lightweight chess engine implemented in C, supporting full game l
 ---
 ### Usage
 
-- Upon first opening the program use **CTRL +** and **CTRL -** and **SCROLL UP**untill you can see all the text  then wait few seconds .
+- Upon first opening the program use **CTRL +** and **CTRL -** and **SCROLL UP** untill you can see all the text  then enter anything .
 - The Game uses pointer to select and move the piece . 
 - Use **w a s d** to move the pointer in the respective direction and **y** to select the piece you want to move and move the pointer again to move it to final position and select that position using **y**.
 - While Promoting use **Q R N B** for white and **q r n b** for black.
