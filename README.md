@@ -23,4 +23,21 @@ A powerful and lightweight chess engine implemented in C, supporting full game l
 - While Promoting use **Q R N B** for white and **q r n b** for black.
 
 ---
+## Compiling Chess
+
+To compile follow these steps:
+
+1. **Install a C compiler**: Ensure you have a C compiler installed on your system. Common options include GCC (GNU Compiler Collection) and Clang.
+
+2. **Navigate to the game directory**: Open a terminal or command prompt and change the directory to where the game files are located.
+
+   ```
+   cd path/to/game-directory
+3. Compile the game: Use the following command to compile Chess Engine .
+   ```
+   gcc game.c logic.h move.h renderer.h -o game_name
+4. Run the game: After compilation, you can run the game using the following command:
+
+   ```
+   ./game_name
 
