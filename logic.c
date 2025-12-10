@@ -75,8 +75,8 @@ void fen(char data[8][8][4] ,int move , int fullmv,int fifty,FILE *filePtr){
         printf("-");
         fprintf(filePtr,"-");
     }
-    printf(" %d %d",fifty/2,fullmv);
-    fprintf(filePtr," %d %d\n",fifty/2,fullmv);
+    printf(" - %d %d",fullmv,fifty/2);
+    fprintf(filePtr," - %d %d\n",fullmv,fifty/2);
     
 }
 

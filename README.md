@@ -22,5 +22,11 @@ A powerful and lightweight chess engine implemented in C, supporting full game l
 - Use **w a s d** to move the pointer in the respective direction and **y** to select the piece you want to move and move the pointer again to move it to final position and select that position using **y**.
 - While Promoting use **Q R N B** for white and **q r n b** for black.
 
+
+---
+#### To Compile 
+
+` gcc game.c renderer.h logic.h move.h  -o Game-2.exe `
+
 ---
 
